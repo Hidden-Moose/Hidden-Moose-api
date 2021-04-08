@@ -1,0 +1,129 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\DreadPirateRoberts\\desktop\\repos\\Hidden-Moose-api\\backend\\hidden.moose.api\\Hidden.Moose.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\DreadPirateRoberts\\desktop\\repos\\Hidden-Moose-api\\backend\\hidden.moose.api\\Hidden.Moose.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DreadPirateRoberts\\desktop\\repos\\Hidden-Moose-api\\backend\\hidden.moose.api\\Hidden.Moose.Api.csproj",
+        "projectName": "Hidden.Moose.Api",
+        "projectPath": "C:\\Users\\DreadPirateRoberts\\desktop\\repos\\Hidden-Moose-api\\backend\\hidden.moose.api\\Hidden.Moose.Api.csproj",
+        "packagesPath": "C:\\Users\\DreadPirateRoberts\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DreadPirateRoberts\\desktop\\repos\\Hidden-Moose-api\\backend\\hidden.moose.api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\DreadPirateRoberts\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\DreadPirateRoberts\\desktop\\repos\\Hidden-Moose-api\\backend\\Hidden.Moose.Domain\\Hidden.Moose.Domain.csproj": {
+                "projectPath": "C:\\Users\\DreadPirateRoberts\\desktop\\repos\\Hidden-Moose-api\\backend\\Hidden.Moose.Domain\\Hidden.Moose.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\DreadPirateRoberts\\desktop\\repos\\Hidden-Moose-api\\backend\\Hidden.Moose.Domain\\Hidden.Moose.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DreadPirateRoberts\\desktop\\repos\\Hidden-Moose-api\\backend\\Hidden.Moose.Domain\\Hidden.Moose.Domain.csproj",
+        "projectName": "Hidden.Moose.Domain",
+        "projectPath": "C:\\Users\\DreadPirateRoberts\\desktop\\repos\\Hidden-Moose-api\\backend\\Hidden.Moose.Domain\\Hidden.Moose.Domain.csproj",
+        "packagesPath": "C:\\Users\\DreadPirateRoberts\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DreadPirateRoberts\\desktop\\repos\\Hidden-Moose-api\\backend\\Hidden.Moose.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\DreadPirateRoberts\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

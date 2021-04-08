@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Hidden.Moose.Domain/1.0.0": {
+        "runtime": {
+          "Hidden.Moose.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Hidden.Moose.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

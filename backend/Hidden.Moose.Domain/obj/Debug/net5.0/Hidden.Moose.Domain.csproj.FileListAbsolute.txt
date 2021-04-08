@@ -1,0 +1,12 @@
+C:\Users\DreadPirateRoberts\desktop\repos\Hidden-Moose-Api\backend\Hidden.Moose.Domain\bin\Debug\net5.0\Hidden.Moose.Domain.deps.json
+C:\Users\DreadPirateRoberts\desktop\repos\Hidden-Moose-Api\backend\Hidden.Moose.Domain\bin\Debug\net5.0\Hidden.Moose.Domain.dll
+C:\Users\DreadPirateRoberts\desktop\repos\Hidden-Moose-Api\backend\Hidden.Moose.Domain\bin\Debug\net5.0\ref\Hidden.Moose.Domain.dll
+C:\Users\DreadPirateRoberts\desktop\repos\Hidden-Moose-Api\backend\Hidden.Moose.Domain\bin\Debug\net5.0\Hidden.Moose.Domain.pdb
+C:\Users\DreadPirateRoberts\desktop\repos\Hidden-Moose-Api\backend\Hidden.Moose.Domain\obj\Debug\net5.0\Hidden.Moose.Domain.csprojAssemblyReference.cache
+C:\Users\DreadPirateRoberts\desktop\repos\Hidden-Moose-Api\backend\Hidden.Moose.Domain\obj\Debug\net5.0\Hidden.Moose.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DreadPirateRoberts\desktop\repos\Hidden-Moose-Api\backend\Hidden.Moose.Domain\obj\Debug\net5.0\Hidden.Moose.Domain.AssemblyInfoInputs.cache
+C:\Users\DreadPirateRoberts\desktop\repos\Hidden-Moose-Api\backend\Hidden.Moose.Domain\obj\Debug\net5.0\Hidden.Moose.Domain.AssemblyInfo.cs
+C:\Users\DreadPirateRoberts\desktop\repos\Hidden-Moose-Api\backend\Hidden.Moose.Domain\obj\Debug\net5.0\Hidden.Moose.Domain.csproj.CoreCompileInputs.cache
+C:\Users\DreadPirateRoberts\desktop\repos\Hidden-Moose-Api\backend\Hidden.Moose.Domain\obj\Debug\net5.0\Hidden.Moose.Domain.dll
+C:\Users\DreadPirateRoberts\desktop\repos\Hidden-Moose-Api\backend\Hidden.Moose.Domain\obj\Debug\net5.0\ref\Hidden.Moose.Domain.dll
+C:\Users\DreadPirateRoberts\desktop\repos\Hidden-Moose-Api\backend\Hidden.Moose.Domain\obj\Debug\net5.0\Hidden.Moose.Domain.pdb
