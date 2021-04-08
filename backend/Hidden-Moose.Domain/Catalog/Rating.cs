@@ -1,6 +1,6 @@
 using System;
 
-namespace Hidden.Moose.Domain.Catalog
+namespace HiddenMoose.Domain.Catalog
 {
     public class Rating
     {
