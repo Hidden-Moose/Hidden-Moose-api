@@ -9,7 +9,11 @@
   </ItemGroup>
 
   <ItemGroup>
+<<<<<<< HEAD:backend/Hidden.Moose.Api/Hidden.Moose.Api.csproj
     <ProjectReference Include="..\Hidden.Moose.Domain\Hidden.Moose.Domain.csproj" />
+=======
+    <ProjectReference Include="..\Hidden-Moose.Domain\Hidden-Moose.Domain.csproj" />
+>>>>>>> e5785cbc5061c7efe6a0f295c74e5f1b249bb595:backend/Hidden-Moose.Api/Hidden-Moose.Api.csproj
   </ItemGroup>
 
 </Project>

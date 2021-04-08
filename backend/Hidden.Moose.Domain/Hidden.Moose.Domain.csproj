@@ -2,6 +2,10 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+<<<<<<< HEAD:backend/Hidden.Moose.Domain/Hidden.Moose.Domain.csproj
+=======
+    <RootNamespace>HiddenMoose.Domain</RootNamespace>
+>>>>>>> e5785cbc5061c7efe6a0f295c74e5f1b249bb595:backend/Hidden-Moose.Domain/Hidden-Moose.Domain.csproj
   </PropertyGroup>
 
 </Project>
