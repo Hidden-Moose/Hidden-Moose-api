@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using Hidden.Moose.Domain.Catalog;
 using System;
 using System.Collections.Generic;
+using Microsoft.EntityFrameworkCore;
 
 
 namespace Hidden.Moose.Api.Controllers
@@ -57,7 +58,20 @@ namespace Hidden.Moose.Api.Controllers
     [HttpPut("{id:int}")]
     public IActionResult PutItem(int id, [FromBody] Item item)
     {
-        return Ok();
+        if (id != item.Id)
+        {
+            return BadRequest();
+        }
+
+        if (_db.Items.Find(id) == null)
+        {
+            return NotFound();
+        }
+
+        _db.Entry(item).State = EntityState.Modified;
+        _db.SaveChanges();
+
+        return NoContent();
     }
     [HttpDelete]
     public IActionResult DeleteItem(int id)
