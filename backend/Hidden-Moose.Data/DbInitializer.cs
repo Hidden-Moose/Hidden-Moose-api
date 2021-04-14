@@ -1,3 +1,4 @@
+using Hidden.Moose.Data;
 using Hidden.Moose.Domain.Catalog;
 using Microsoft.Extensions.Logging;
 using System.Linq;

@@ -3,7 +3,7 @@ using Hidden.Moose.Domain.Catalog;
 using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
-
+using Hidden.Moose.Data;
 
 namespace Hidden.Moose.Api.Controllers
 {
@@ -38,13 +38,12 @@ namespace Hidden.Moose.Api.Controllers
         _db.Items.Add(item);
         _db.SaveChanges();
         return Created($"/catalog/{item.Id}", item);
-        return Created("/catalog/42", item);
     }
     
     [HttpPost("{id:int}/ratings")]
     public IActionResult PostRating(int id, [FromBody] Rating rating)
     {
-        var item = new _db.Items.Find(id);
+        var item = _db.Items.Find(id);
         if (item == null) 
         {
             return NotFound();
