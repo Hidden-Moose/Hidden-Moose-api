@@ -76,6 +76,15 @@ namespace Hidden.Moose.Api.Controllers
     [HttpDelete]
     public IActionResult DeleteItem(int id)
     {
+        var item = _db.Items.Find(id);
+        if (item == null)
+        {
+            return NotFound();
+        }
+
+        _db.Items.Remove(item);
+        _db.SaveChanges();
+
         return Ok();
     }
     }
