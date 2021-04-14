@@ -1,4 +1,5 @@
 ﻿using Hidden.Moose.Domain.Catalog;
+using Hidden.Moose.Domain.Orders;
 using Microsoft.EntityFrameworkCore;
 
 
@@ -11,5 +12,7 @@ namespace Hidden.Moose.Data
         { }
         
         public DbSet<Item> Items { get; set; }
+
+        public DbSet<Order> Orders { get; set; }
     }
 }
