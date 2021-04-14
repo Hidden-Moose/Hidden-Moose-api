@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 
 
-namespace Hidden_Moose.Data
+namespace Hidden.Moose.Data
 {
     public class StoreContext : DbContext
     {

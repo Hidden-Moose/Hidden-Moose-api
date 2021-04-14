@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+
 namespace Hidden.Moose.Domain.Catalog
 {
     public class Rating

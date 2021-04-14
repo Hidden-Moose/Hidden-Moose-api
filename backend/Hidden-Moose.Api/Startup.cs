@@ -12,6 +12,8 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 
+
+
 namespace Hidden_Moose.Api
 {
     public class Startup
@@ -28,7 +30,7 @@ namespace Hidden_Moose.Api
         {
             services.AddDbContext<StoreContext>(opt => 
                 opt.UseSqlite(Configuration.GetConnectionString("LocalDb"),
-                    b => b.MigrationAssembly("Jet.Piranha.Api")));
+                    b => b.MigrationAssembly("Hidden_Moose.Api")));
                     
             services.AddControllers();
             services.AddSwaggerGen(c =>

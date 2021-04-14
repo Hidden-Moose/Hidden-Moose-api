@@ -13,7 +13,29 @@ namespace Hidden_Moose.Api
     {
         public static void Main(string[] args)
         {
-            CreateHostBuilder(args).Build().Run();
+           var host = CreateHostBuilder(args).Build();
+           CreateDbIfNotExists(host);
+           host.Run();
+        }
+
+        public static void CreateDbIfNotExists(IHost host)
+        {
+            using (var scope = host.Services.CreateScope())
+            {
+                var services = scope.ServiceProvider;
+                var logger = services.GetRequiredService<ILogger<Program>>();
+
+                try
+                {
+                    var context = services.GetRequiredService<StoreContext>();
+                    context.Database.EnsureCreated();
+                    DbInitalizer.Initialize(context, logger);
+                }
+                catch (Exception ex)
+                {
+                    logger.LogError(ex, "Error occured creating the database.");
+                }
+            }
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
