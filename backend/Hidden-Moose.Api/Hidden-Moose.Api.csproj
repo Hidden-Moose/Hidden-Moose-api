@@ -11,6 +11,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Hidden-Moose.Domain\Hidden-Moose.Domain.csproj" />
+    <ProjectReference Include="..\Hidden-Moose.Data\Hidden-Moose.Data.csproj" />
   </ItemGroup>
 
 </Project>
