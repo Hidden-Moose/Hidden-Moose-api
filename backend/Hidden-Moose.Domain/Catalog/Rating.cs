@@ -22,7 +22,7 @@ namespace Hidden.Moose.Domain.Catalog
         }
         this.Star = star;
         this.UserName = userName;
-        this.Review = Review;
+        this.Review = review;
     }
     }
 }

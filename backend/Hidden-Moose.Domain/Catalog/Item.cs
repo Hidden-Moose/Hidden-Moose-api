@@ -8,14 +8,19 @@ namespace Hidden.Moose.Domain.Catalog
         public string Name {get;set;}
         public string Description {get;set;}
         public string Brand {get;set;}
+        public string ImageUrl {get;set;}
         public decimal Price{get;set;}
         public List<Rating> Ratings {get;set;}
 
-        public Item(string name, string description, string brand, decimal price)
+        public Item(string name, string description, string brand,string imageUrl, decimal price)
         {
             if(string.IsNullOrEmpty(name))
             {
                 throw new ArgumentException("Item cannot be null.");
+            }
+            if(string.IsNullOrEmpty(imageUrl))
+            {
+                throw new ArgumentException("Image path cannot be null.");
             }
              if(string.IsNullOrEmpty(description))
             {
@@ -31,6 +36,7 @@ namespace Hidden.Moose.Domain.Catalog
             }
             this.Name = name;
             this.Description = description;
+            this.ImageUrl = imageUrl;
             this.Brand = brand;
             this.Price = price;
         }
